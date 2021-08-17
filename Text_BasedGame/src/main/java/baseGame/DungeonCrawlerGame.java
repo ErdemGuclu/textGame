@@ -41,7 +41,7 @@ public class DungeonCrawlerGame {
         }
 
         System.out.println("""
-                ****************************************************DUNGEON CRAWLER****************************************************************
+                ****************************************************     DUNGEON CRAWLER     ****************************************************************
                                 
                 Welcome to the dungeon brave hero. A long and dangerous path awaits with full of monsters and demons from distant realms.
                 But with courage and willpower nothing stands in your way. It is time to fulfill your destiny and put an end to the evil across the land.
