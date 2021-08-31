@@ -74,7 +74,7 @@ public class MysteriousStranger {
                                 break;
                             } else
                                 System.out.println("WRONG INPUT");
-                        } catch (NumberFormatException ex)
+                        } catch (NumberFormatException ignored)
                         {}
                     }
                     break;
@@ -87,7 +87,7 @@ public class MysteriousStranger {
                 } else
                     System.out.println("WRONG INPUT");
             }
-            catch (NumberFormatException ex)
+            catch (NumberFormatException ignored)
             {}
         }
     }

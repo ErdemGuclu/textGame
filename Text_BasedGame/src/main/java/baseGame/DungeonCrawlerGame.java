@@ -80,7 +80,7 @@ public class DungeonCrawlerGame {
                 } else
                     System.out.println("------------WRONG INPUT!!------------\n");
             }
-            catch (NumberFormatException ex)
+            catch (NumberFormatException ignored)
             {}
         }
 
@@ -156,7 +156,7 @@ public class DungeonCrawlerGame {
 
                         if (amuletOfBloodlust) {
                             int absorbedHealth = (int) (damageGiven * 0.2);
-                            System.out.printf("Gained %d health with Sword of Bloodlust%n", absorbedHealth);
+                            System.out.printf("Gained %d health with Amulet of Bloodlust%n", absorbedHealth);
                             hero.maxHealth += absorbedHealth;
                         }
 

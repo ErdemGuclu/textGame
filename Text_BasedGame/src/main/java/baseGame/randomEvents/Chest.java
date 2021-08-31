@@ -68,7 +68,7 @@ public class Chest {
                 } else
                     System.out.println("WRONG INPUT!");
             }
-            catch (NumberFormatException ex)
+            catch (NumberFormatException ignored)
             {}
         }
 

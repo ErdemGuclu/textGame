@@ -62,7 +62,7 @@ public class Trader {
                                 System.out.println("WRONG INPUT");
                             }
                         }
-                        catch (NumberFormatException ex)
+                        catch (NumberFormatException ignored)
                         {}
                     }
                     break;
@@ -72,7 +72,7 @@ public class Trader {
                 } else
                     System.out.println("WRONG INPUT");
             }
-            catch (NumberFormatException ex)
+            catch (NumberFormatException ignored)
             {}
         }
     }
